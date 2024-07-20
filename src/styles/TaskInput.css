@@ -1,0 +1,13 @@
+.task-input {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .task-input input {
+    margin-right: 10px;
+  }
+  
+  .task-input select {
+    margin-right: 10px;
+  }
+  

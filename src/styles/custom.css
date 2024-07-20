@@ -1,0 +1,112 @@
+.low-priority {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+}
+
+.medium-priority {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+}
+
+.high-priority {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+}
+
+@media (max-width: 767px) {
+    .text-right {
+        text-align: left !important;
+        margin-top: 0.5em;
+    }
+
+    .badge {
+        display: inline-block;
+        margin-top: 0.5em;
+    }
+}
+
+.badge-high {
+    background-color: red;
+    color: white;
+}
+
+.badge-medium {
+    background-color: orange;
+    color: white;
+}
+
+.badge-low {
+    background-color: green;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 1.5em;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    margin-right: 1em;
+}
+
+.form-control {
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.list-group-item .badge {
+    font-size: 0.9em;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+}
+
+.alert-danger {
+    border-radius: 0.5em;
+    margin-bottom: 1.5em;
+}
